@@ -1,0 +1,75 @@
+#content for nav.html
+title: "GGG: Giorgio · Genova · Glasgow."
+subtitle: "Giorgio Ciacchella's personal blog"
+logo_img: "/assets/favicon.svg"
+
+#content for nav.html (shown on desktop) navigation links
+nav_link_one_name: Categories
+nav_link_one_link: "/categories"
+
+nav_link_two_name: About
+nav_link_two_link: "/about"
+
+nav_link_three_name: Now
+nav_link_three_link: "/now"
+
+#content for footer.html (shown on mobile) footer navigation links
+nav_link_one_name: Categories
+nav_link_one_link: "/categories"
+
+nav_link_two_name: About
+nav_link_two_link: "/about"
+
+nav_link_three_name: Now
+nav_link_three_link: "/now"
+
+# GitHub Pages
+lsi: false
+safe: true
+source: ""
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+baseurl: ""
+google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
+copyright_name: Giorgio Ciacchella
+
+# SEO data (https://github.com/jekyll/jekyll-seo-tag)
+logo: "/assets/img/g-icon.png"
+description: Giorgio Ciacchella
+author:
+  name: Giorgio Ciacchella
+  email: ciakki.g@gmail.com
+
+social:
+  name: Giorgio Ciacchella
+  links:
+    - https://github.com/ciakkig
+
+# Build settings
+permalink: pretty
+paginate: 12
+
+defaults:
+  -
+    scope:
+      path: "assets/img/"
+    values:
+      image: true
+
+plugins:
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-feed
+- jekyll-paginate
+exclude:
+- Gemfile
+- Gemfile.lock
+- package.json
+- README.md
+- .vendor

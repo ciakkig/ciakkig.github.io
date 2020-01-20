@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<div class="page-wrapper">
+	<!-- Post Header -->
+	<h1>{{ page.title }}</h1>
+	<div class="inner-wrapper">
+		<p class="mono smaller sm-1-col lg-2-col pull-left">Posted on {{ page.date | date: "%B %-d, %Y" }} by
+			{{ page.author }} in
+			{% for category in page.categories %} <a
+				href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>{% endfor %}.
+			<p class="mono smaller sm-1-col lg-2-col pull-right">{{ page.content | number_of_words }} words |
+				{{ page.content | number_of_words | divided_by: 130 }} minutes</p>
+	</div>
+	<hr>
+	<img src="/{{ page.header-img }}-crop.{{ page.header-format}}" alt="Header image">
+	{% if page.unsplash-name %}
+	<h6 style="text-align: right"><i>
+			Photo by <a href="https://unsplash.com/@{{ page.unsplash-profile }}">{{ page.unsplash-name }}</a> on <a
+				href="https://unsplash.com">Unsplash</a>
+		</i></h6>
+	{% endif %}
+	{% if page.img-caption %}
+	<h6 style="text-align: right"><i>
+			{{ page.img-caption }}
+		</i></h6>
+	{% endif %}
+	<!-- Post Content -->
+	<article>
+		{{ content }}
+		<div class="social-sharing inline-block">
+			{% include contact.html %}
+		</div>
+		<div class="pager">
+			{% if page.previous.url %}
+			<a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+				title="{{page.previous.title}}">
+				<button class="btn-primary">&larr; Previous Post</button>
+			</a>
+			{% endif %}
+			{% if page.next.url %}
+			<a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" title="{{page.next.title}}">
+				<button class="btn-primary">Next Post &rarr;</button>
+			</a>
+			{% endif %}
+		</div><!-- end .pager -->
+	</article>
+</div><!-- end .page-wrapper -->

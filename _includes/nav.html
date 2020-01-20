@@ -1,0 +1,22 @@
+<nav>
+	<a href="{{ site.baseurl }}/">
+		<h1>
+			{{ site.title }}
+		</h1>
+	</a>
+	<div>
+		<p class="mono">
+			{{ site.subtitle }}
+		</p>
+	</div>
+	<p class="smaller mobile-hide">
+		{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "https://github.com/scottmathson/simpol-theme#readme" }}">{% endif %}
+		{% if site.nav_link_one_name %}{{ site.nav_link_one_name }}</a>{% else %}{{ "Setup in _config.yml" }}</a>{% endif %}
+		&bull;
+		{% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
+		{% if site.nav_link_two_name %}{{ site.nav_link_two_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+		&bull;
+		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
+		{% if site.nav_link_three_name %}{{ site.nav_link_three_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+	</p>
+</nav>
