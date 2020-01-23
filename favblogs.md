@@ -4,7 +4,6 @@ title:      Giorgio's favourite blogs
 ---
 
 # Here are my favourite blogs.
-##### Last modified on January 17, 2020.
 ###### Check out the ["Why"](/why) page too for more about how these blogs shape my own space.
 ---
 
