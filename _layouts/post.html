@@ -11,7 +11,7 @@ layout: default
 			{% for category in page.categories %} <a
 				href="{{ site.baseurl }}/categories#{{ category }}">{{ category }}</a>{% endfor %}.
 			<p class="mono smaller sm-1-col lg-2-col pull-right">{{ page.content | number_of_words }} words |
-				{{ page.content | number_of_words | divided_by: 130 }} minutes</p>
+				{{ page.content | number_of_words | divided_by: 150 }} minutes</p>
 	</div>
 	<hr>
 	<img src="/{{ page.header-img }}-crop.{{ page.header-format}}" alt="Header image">
