@@ -88,8 +88,8 @@ Mind you, I'm obviously not an expert in any of those fields, but although that 
 
 Take a look at my (loose) reviews [here](/categories).
 
-# I think by links and analogies.
-My education and possibly, to a certain extent, my natural disposition have developed my mindset to be particularly receptive to the **links** and the **analogies** between topics or subjects, which can sometimes even be very different and seemingly unrelated.
+# I think by analogies and symmetries.
+My education and possibly, to a certain extent, my natural disposition have developed my mindset to be particularly receptive to the **analogies** and the **symmetries** between topics or subjects, which can sometimes even be very different and seemingly unrelated.
 I find this trait neither good nor bad by itself: just characteristic of myself and the way I approach the world, which I believe to be extremely complex and full of such elements.
 
 ---
