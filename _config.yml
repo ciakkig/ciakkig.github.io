@@ -3,26 +3,6 @@ title: "GGG: Giorgio · Genova · Glasgow."
 subtitle: "Giorgio Ciacchella's personal blog"
 logo_img: "/assets/favicon.svg"
 
-#content for nav.html (shown on desktop) navigation links
-nav_link_one_name: Categories
-nav_link_one_link: "/categories"
-
-nav_link_two_name: About
-nav_link_two_link: "/about"
-
-nav_link_three_name: Now
-nav_link_three_link: "/now"
-
-#content for footer.html (shown on mobile) footer navigation links
-nav_link_one_name: Categories
-nav_link_one_link: "/categories"
-
-nav_link_two_name: About
-nav_link_two_link: "/about"
-
-nav_link_three_name: Now
-nav_link_three_link: "/now"
-
 # GitHub Pages
 lsi: false
 safe: true
@@ -63,10 +43,10 @@ defaults:
       image: true
 
 plugins:
+- jekyll-paginate
+- jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
-- jekyll-feed
-- jekyll-paginate
 exclude:
 - Gemfile
 - Gemfile.lock
