@@ -10,13 +10,10 @@
 		</p>
 	</div>
 	<p class="smaller">
-		{% if site.nav_link_one_link %}<a href="{{ site.nav_link_one_link }}">{% else %}<a href="{{ "https://github.com/scottmathson/simpol-theme#readme" }}">{% endif %}
-		{% if site.nav_link_one_name %}{{ site.nav_link_one_name }}</a>{% else %}{{ "Setup in _config.yml" }}</a>{% endif %}
+		<a href="/about">About</a>
 		&bull;
-		{% if site.nav_link_two_link %}<a href="{{ site.nav_link_two_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
-		{% if site.nav_link_two_name %}{{ site.nav_link_two_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+		<a href="/now">Now</a>
 		&bull;
-		{% if site.nav_link_three_link %}<a href="{{ site.nav_link_three_link }}">{% else %}<a href="{{ "#" }}">{% endif %}
-		{% if site.nav_link_three_name %}{{ site.nav_link_three_name }}</a>{% else %}{{ "x" }}</a>{% endif %}
+		<a href="/feed.xml">RSS</a>
 	</p>
 </nav>
