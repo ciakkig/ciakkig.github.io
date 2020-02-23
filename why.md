@@ -1,6 +1,6 @@
 ---
-layout:     page
-title:      Why did Giorgio make this?
+layout: page
+title:  Why did Giorgio make this?
 ---
 
 # You have a question, I have the answer.

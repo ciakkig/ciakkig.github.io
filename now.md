@@ -1,6 +1,6 @@
 ---
-layout:     page
-title:      Giorgio, right now
+layout: page
+title:  Giorgio, right now
 ---
 
 # Here's what I've been up to lately.
