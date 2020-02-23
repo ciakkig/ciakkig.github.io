@@ -1,6 +1,6 @@
 ---
-layout:     page
-title:      About Giorgio
+layout: page
+title:  About Giorgio
 ---
 
 # Let me tell you about myself.
@@ -30,13 +30,14 @@ title:      About Giorgio
      (ongoing)  Electronic & Software Engineering BEng                      [Year 1/4]
 <b>Experience:</b>  SCUBA diving guide @ Toga Plongée, Bastia, FR:
         (2019)  5 weeks
-<b>CPU:</b>        C. G. Jung
-            F. Nietzsche, L. Feuerbach, K. Barth
+<b>CPU:</b>        C. G. Jung, F. Nietzsche, L. Feuerbach, K. Barth
             S. Kierkegaard, M. Heidegger, J. P. Sartre, E. Levinas
+            G. Leopardi, G. Ungaretti, E. Montale
+            W. Szymborska, M. Bashō
 <b>GPU:</b>        C. Monet, P. Cézanne, V. Van Gogh
             G. Balla, G. Dottori, M. Sironi
             R. Magritte, S. Dalì, G. De Chirico, A. Hopper
-            M. C. Escher
+            K. Hokusai, E. Munch, M. C. Escher
 <b>Memory:</b>     14 digits of pi
             15 digits of e
 </pre></div>
