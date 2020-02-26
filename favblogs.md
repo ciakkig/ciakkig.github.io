@@ -22,12 +22,12 @@ As featured on [Now](/now) and [Why](/why), the point in time I built this site 
 # So, these are the personal spaces I find the most interesting and inspiring:
 
 -   **[rcastellotti.dev](http://rcastellotti.dev):** my friend **Roberto Castellotti** definitely deserves the first spot on this list for being the single biggest inspiration for creating this blog in the first place.
-It was also him that directed me towards [Jekyll](http://jekyllrb.com), the SSG that powers this website.       
-My absolutely favourite part of his website is its unmistakably unapologetic style, totally in line with his personality.
-Do check it out, but be wary: it's written in Italian.
+It was also him to introduce me to [Jekyll](http://jekyllrb.com), the SSG that powers this website.       
+My absolutely favourite part of his website is the live-typing description on the homepage: it draws attention in a very smooth way; however, it's far from reflecting his wpm count.
+Go check it out, it just got a new, fresh look thanks to the recent overhaul -- now in English!
 
 -   **[sivers.org](http://sivers.org):** founder of CDBaby and HostBaby, fellow introvert and world citizen **Derek Sivers** has quickly grown to be one of my biggest inspirations, from his simple yet fresh idea of the ["Now page"](http://nownownow.com/about) to a concept of minimalism that embraces much, much more than its mere design aspect.       
-My absolutely favourite part of his website is his permalink scheme: no subdirectories, only few letter slugs for a clean and truly minimal navigation of the site.
+My absolutely favourite part of his website is the permalink scheme: no subdirectories, only few letter slugs for a clean and truly minimal navigation of the site.
 
 -   **[scottmathson.com](https://scottmathson.com):** web developer, designer and fellow maker **Scott Mathson** is the mind behind the [minimal theme](https://scottmathson.com/blog/2017/04/27/developing-a-jekyll-website-theme) you're seeing this site dressed in right now.       
 My absolutely favourite part of his website is the custom greeting on the homepage, that changes to be a consistent alliteration with each day of the week.
