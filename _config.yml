@@ -1,7 +1,10 @@
 #content for nav.html
 title: "GGG: Giorgio · Genova · Glasgow."
 subtitle: "Giorgio Ciacchella's personal blog"
-logo_img: "/assets/favicon.svg"
+logo_img: "/assets/logo/favicon.png"
+baseurl: ""
+google_tracking_id: # Google Analytics Tracking ID: UA-XXXXXXXX-X
+copyright_name: Giorgio Ciacchella
 
 # GitHub Pages
 lsi: false
@@ -15,12 +18,8 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 
-baseurl: ""
-google_tracking_id: #deletme-Google Analytics Tracking ID- UA-XXXXXXXX-X
-copyright_name: Giorgio Ciacchella
-
 # SEO data (https://github.com/jekyll/jekyll-seo-tag)
-logo: "/assets/img/g-icon.png"
+logo: "/assets/logo/favicon.ico"
 description: Giorgio Ciacchella
 author:
   name: Giorgio Ciacchella
@@ -36,7 +35,6 @@ permalink: pretty
 paginate: 12
 
 defaults:
-  -
     scope:
       path: "assets/img/"
     values:
@@ -47,9 +45,14 @@ plugins:
 - jekyll-feed
 - jekyll-sitemap
 - jekyll-seo-tag
+
+include:
+- _pages
+
 exclude:
 - Gemfile
 - Gemfile.lock
 - package.json
-- README.md
 - .vendor
+- README.md
+- LICENSE.md
