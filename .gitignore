@@ -1,4 +1,5 @@
-_site
-_drafts
+.gitignore
 .vendor
-assets/img/pages/x
+_drafts
+_site
+_pages/now_archive
