@@ -1,99 +1,59 @@
-# Introducing Simpol Theme
+# [ciakkig.github.io](https://ciakkig.github.io) (or [gggeo.tech](https://gggeo.tech))
 
-Simpol is a minimal, clean, and open source Jekyll theme for Github Pages.
+This is the repository that hosts all the source material for my blog: anything you see on it which isn't a link, is here somewhere.
+Here you'll find the raw Markdown manuscripts of all [pages](https://github.com/ciakkig/ciakkig.github.io/blob/master/pages) and [posts](https://github.com/ciakkig/ciakkig.github.io/blob/master/posts), the HTML and CSS code that sets the layout and styling of the site, and much more: all the modified photos are accompanied by their original versions, the "G" Logo is available as PNG and SVG along with ICO, and there are this README and a [LICENSE](#licenses) for details and legals.
 
->### Focus on the writing, the content.
+The only thing you won't find here is the generator itself, which here on GitHub is handled behind the scenes by **[Jekyll](https://jekyllrb.com).**
+But fear not: that's obviously open source too!
+If you're *that* nosy, check out [its own repo](https://github.com/jekyll/jekyll).
 
-![Screenshot](https://user-images.githubusercontent.com/178448/31042735-75abfb14-a563-11e7-9a32-d8f76384c90f.jpg)
 
-- [Installation](#installation)
-- [Current features](#current-features)
-- [Credits](#credits)
-- [Resources](#resources)
+## Theme
 
-## Installation
+The website is built upon the Jekyll theme [Simpol](https://simpol.scottmathson.com) by [Scott Mathson](https://scottmathson.com).
 
-### As a Fork
+My own version, however, is continuously undergoing slight changes.
+I am not a web developer, let alone designer -- I just like to customise it to make it my own, as one does with free software.
+I try to apply good coding practices to this too, but I'm not editing it with a "template" mindset: I modify it to complement the kind of content I post and how I want to offer it, regardless of others' tastes.
 
-1. [Fork the repo](https://github.com/scottmathson/simpol-theme#fork-destination-box)
-2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
-3. Install bundler with `$ gem install bundler`
-4. Install gems with `$ bundle install`
-5. Run Jekyll with `$ bundle exec jekyll serve`
-6. Have fun!
+That being said if, by any chance, you like this one better than the original and want to use it for your own website, let me know: I'll do my best to strip it of my content, be more thoughtful of diverse scenarios and make a blank slate available as a proper fork of the original.
 
-### As a Jekyll theme gem
-
-[![Gem Version](https://badge.fury.io/rb/simpol-jekyll-theme.svg)](https://badge.fury.io/rb/simpol-jekyll-theme)
-
-Simply run `gem install simpol-jekyll-theme` to download the latest Gem
-
-Or:
-
-1. Download the theme, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/scottmathson/simpol-theme/tree/master/)
-2. Install bundler with `$ gem install bundler`
-3. Install gems with `$ bundle install`
-4. Run Jekyll with `$ bundle exec jekyll serve`
-5. Have fun!
-
-### Run with Docker
-
-- Docker Installation guide can be found here: https://docs.docker.com/engine/installation
-
-You can start the site locally by browsing to the project's directory and running `docker-compose up`.
-
-You should see the following:
-
-```bash
-simpol-theme | Configuration file: /srv/jekyll/_config.yml
-simpol-theme |             Source: /srv/jekyll
-simpol-theme |        Destination: /srv/jekyll/_site
-simpol-theme |  Incremental build: enabled
-simpol-theme |       Generating...
-simpol-theme |                     done in x.xxx seconds.
-simpol-theme |  Auto-regeneration: enabled for '/srv/jekyll'
-simpol-theme |     Server address: http://0.0.0.0:4000/
-simpol-theme |   Server running... press ctrl-c to stop.
-```
-
-## Current Features
-
-* Minimal design and feel.
-* Simple and customizable Navigation, Index, and Footer
-* *Site greeting, sub-greetings, links, logo, and more*
-* All easily setup and managed in the config file
-* Clean, light-weight, default layouts for pages and posts
-* Search engine friendly! Optimized metadata for SEO.
-* Easy, site-wide Google Analytics setup/integration
-* Post categories and archive page
-* Social sharing for Twitter, Facebook, and email on all posts.
-* Sitemap, XML Feed, and 404 Page
-* Single, yet powerful and light-weight CSS Stylesheet
-* **Simple, like a website should be.**
 
 ## Credits
 
-Simpol Theme is designed, developed, and maintained by Scott Mathson, Mathson Design Co.
+Massive thanks to **[Roberto Castellotti](https://rcastellotti.dev)** for being the single biggest inspiration for building this website in the first place: without his contribute, who knows if it would even exist.    
+And massive thanks to **[fork-bombed](https://fork-bombed.github.io)** as well, for making my day when I ended up at the other end of the inspiration chain!
 
-The clean design and feel is inspired by other minimal themes and blogs out there.
+Huge thanks to **Scott Mathson** for making this very theme and providing a canvas for my expression.
 
-[Scott on GitHub](https://github.com/scottmathson) | [Scott on Twitter](https://twitter.com/scottmathson)
+And thanks to Fedora Beelke for bearing with me during the ["G" Logo](https://github.com/ciakkig/ciakkig.github.io/blob/master/assets/logo) design process!
 
-## Resources
-
-Check out these blog posts for help in getting started blogging with Simpol Theme. Within the posts are even more resources to help you.
-
-* [Adding New Posts, Simpol Blogging](https://simpoltheme.com/tips/tricks/2017/04/16/writing-new-post/)
-* [Markdown Overview, Simpol Blogging](https://simpoltheme.com/tips/tricks/2017/04/15/blogging-in-markdown-overview/)
-* [Deploy Jekyll to GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+And last, but definitely not least, thanks to everyone who enjoys my content and supports me with enthusiastic feedback or, possibly better yet, constructive criticism.
 
 
----
+## License(s)
 
-## License
+The creative material distributed in this repository comes with a diverse array of licenses.    
+While they are mostly stated on the website, here's a summary of all creative elements and their respective copyrights:
 
-Copyright (c) 2017 Mathson Design, LLC and Scott Mathson
+---           | ---                                   | ---                                                                     | ---                       | ---
+[Theme][1]    | The software framework                | 2017 Mathson Design, LLC and Scott Mathson                              | [ISC][1.1]                |
+[Imagery][2]  | The decorative images                 | case-by-case to the respective specified author and year of licensing   | [UNSPLASH][2.1]           | **[CC0][2.2],** excluding permission to compile the material to replicate a similar or competing service.
+[Icons][3]    | The functional icons                  | 2020 Fonticons, Inc                                                     | [FONTAWESOME FREE][3.1]   | Combination of **[GNU GPL][3.2]-friendly** licenses
+[Logos][4]    | The identifying icons                 | 2020 Fedora Beelke                                                      | [CC BY-ND 4.0][4.1]       |
+[Content][5]  | The individually expressive material  | 2020 Giorgio Ciacchella                                                 | [CC BY-SA 4.0][5.1]       |
 
-Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+[1]:    <https://github.com/ciakkig/ciakkig.github.io/blob/master/LICENSE.md#simpol-theme>
+[1.1]:  <https://choosealicense.com/licenses/isc/>
+[2]:    <https://github.com/ciakkig/ciakkig.github.io/blob/master/LICENSE.md#unsplash-credited-imagery>
+[2.1]:  <https://unsplash.com/license>
+[2.2]:  <https://creativecommons.org/publicdomain/zero/1.0>
+[3]:    <https://github.com/ciakkig/ciakkig.github.io/blob/master/LICENSE.md#fontawesome-icons>
+[3.1]:  <https://fontawesome.com/license/free>
+[3.2]:  <https://www.gnu.org/licenses/gpl-3.0.en.html>
+[4]:    <https://github.com/ciakkig/ciakkig.github.io/blob/master/LICENSE.md#logos>
+[4.1]:  <https://creativecommons.org/licenses/by-nd/4.0>
+[5]:    <https://github.com/ciakkig/ciakkig.github.io/blob/master/LICENSE.md#content>
+[5.1]:  <https://creativecommons.org/licenses/by-sa/4.0>
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+For more information, along with the licenses themselves, head over to [`LICENSE.md`](https://github.com/ciakkig/ciakkig.github.io/blob/master/LICENSE.md).
