@@ -1,13 +1,14 @@
 ---
-layout: page
-title:  Why did Giorgio make this?
+layout:     page
+title:      Why did Giorgio make this?
+permalink:  why
 ---
 
 # You have a question, I have the answer.
 ###### Check out my ["Favourite Blogs"](/favblogs) page too for more sources of inspiration for this space.
 ---
 
-![Typewriter](/assets/img/pages/debby-hudson-qP6rQzn6OoI-unsplash-crop.jpg)
+![Typewriter](/assets/img/pages/why-crop.jpg)
 <h6 style="text-align: right"><i>
 Photo by
 <a href="https://unsplash.com/@hudsoncrafted">

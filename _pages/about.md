@@ -1,6 +1,7 @@
 ---
-layout: page
-title:  About Giorgio
+layout:     page
+title:      About Giorgio
+permalink:  about
 ---
 
 # Let me tell you about myself.
@@ -8,15 +9,15 @@ title:  About Giorgio
 ---
 <div class="inner-wrapper">
 <div class="sm-1-col lg-2-col pull-left">
-	<img src="/assets/img/pages/IMG_6806.JPG" alt="It me :)">
+  <img src="/assets/img/pages/me.jpg" alt="It me :)">
     <h6 style="text-align: right"><i>
         Photo courtesy of Umberto Costa Broccardi -- you got a good photographer for that party.
     </i></h6>
 </div>
 
 <div class="sm-1-col lg-2-col pull-right">
-	<code><b>giorgiociacchella@gggeo.tech:~$</b> neofetch</code>
-	<pre class="highlight">
+  <code><b>giorgiociacchella@gggeo.tech:~$</b> neofetch</code>
+  <pre class="highlight">
 <b>giorgiociacchella@gggeo.tech</b>
 ----------------------------
 <b>Birth:</b>       2000.08.25, Genova, IT
@@ -33,7 +34,7 @@ title:  About Giorgio
 <b>CPU:</b>        C. G. Jung, F. Nietzsche, L. Feuerbach, K. Barth
             S. Kierkegaard, M. Heidegger, J. P. Sartre, E. Levinas
             G. Leopardi, G. Ungaretti, E. Montale
-            W. Szymborska, M. Bashō
+            W. Szymborska, M. Bashō, M. Masahide
 <b>GPU:</b>        C. Monet, P. Cézanne, V. Van Gogh
             G. Balla, G. Dottori, M. Sironi
             R. Magritte, S. Dalì, G. De Chirico, A. Hopper
@@ -45,16 +46,19 @@ title:  About Giorgio
 
 # Hello, this is me! -- 'couple years ago.
 
+(I've got longer hair now.
+*[Giovanni, I don't go to the barber's either...](https://youtu.be/s8IxIuHf3KI?t=9)*)
+
 ### I am a university student, born and raised in Genova, Italy but currently based in Glasgow, Scotland!
 ...And here's where I stopped, (over)thinking... What *truly* defines *me*, my *identity*?
 
 <h5 style="text-align: justify"> Studying at university surely does, as I fully identify with the pursuit of my passion as a career, the open-mindedness and cultural research I find typical of college-grade students. And surely also where I grew up in the past and where I'm growing up now do play a significant role in shaping me as a person... but what else does? Let's try not to get too formal and stay simple: defining a person is clearly a complex task, which requires a number of elements. Of course, if we exclude human-made codes, it could be perfectly accomplished by single elements such as <b>one's complete genome,</b> but cold hard science isn't always the answer and this is one of those times -- unless you like a whole shelf worth of books only filled with A, T, C and G. So, a handful of the first possible fragments that come to my mind are my:</h5>
--	Experiences
--	Achievements
--	Ambitions
--	Culture
--	Personality
--	Beliefs
+-  Experiences
+-  Achievements
+-  Ambitions
+-  Culture
+-  Personality
+-  Beliefs
 
 Of the first two -- along with some more fun facts -- you can find a quite meaningless compendium in the "code" above, but CV's don't really make people so we'll have to refer to the remaining as our main tools.
 
