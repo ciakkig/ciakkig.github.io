@@ -36,6 +36,7 @@ And last, but definitely not least, thanks to everyone who enjoys my content and
 The creative material distributed in this repository comes with a diverse array of licenses.    
 While they are mostly stated on the website, here's a summary of all creative elements and their respective copyrights:
 
+Element       | Description                           | Copyright Holder                                                        | License                   | Similarities
 ---           | ---                                   | ---                                                                     | ---                       | ---
 [Theme][1]    | The software framework                | 2017 Mathson Design, LLC and Scott Mathson                              | [ISC][1.1]                |
 [Imagery][2]  | The decorative images                 | case-by-case to the respective specified author and year of licensing   | [UNSPLASH][2.1]           | **[CC0][2.2],** excluding permission to compile the material to replicate a similar or competing service.
