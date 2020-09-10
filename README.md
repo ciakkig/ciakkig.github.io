@@ -26,7 +26,7 @@ And massive thanks to **[fork-bombed](https://fork-bombed.github.io)** as well, 
 
 Huge thanks to **Scott Mathson** for making this very theme and providing a canvas for my expression.
 
-And thanks to Fedora Beelke for bearing with me during the ["G" Logo](https://github.com/ciakkig/ciakkig.github.io/blob/master/assets/logo) design process!
+And thanks to **Fedora Beelke** for bearing with me during the ["G" Logo](https://github.com/ciakkig/ciakkig.github.io/blob/master/assets/logo) design process!
 
 And last, but definitely not least, thanks to everyone who enjoys my content and supports me with enthusiastic feedback or, possibly better yet, constructive criticism.
 
